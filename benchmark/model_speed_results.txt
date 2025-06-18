@@ -1,0 +1,6 @@
+gpt-4.1: 137.19 seconds
+gpt-4o: 144.75 seconds
+gpt-4.5: ERROR - Error code: 404 - {'error': {'message': 'The model `gpt-4.5` does not exist or you do not have access to it.', 'type': 'invalid_request_error', 'param': None, 'code': 'model_not_found'}}
+gpt-4.1-mini: 119.67 seconds
+gpt-3.5-turbo: 114.57 seconds
+gpt-3.5-turbo-16k: 116.75 seconds
