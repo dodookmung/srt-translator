@@ -9,5 +9,3 @@ __pycache__/
 
 # 번역 결과물 (SRT 파일)
 results/
-# 문서화
-imgs/
