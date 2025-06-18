@@ -30,7 +30,16 @@ echo 'OPENAI_API_KEY=sk-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx' > .env
 .env 파일에 OPENAI_API_KEY=sk-xxxx... 을 입력하면 된다.
 </br></br>
 
+## Command-line usage
+srt 파일 이름을 입력하세요. 
+```bash
+python3 cli.py english.srt
+```
+</br></br>
+
 ## 모델별 속도 테스트
+
+192 line "test.srt"
 
 | 모델                | 소요 시간 (초) |
 |---------------------|:-------------:|
