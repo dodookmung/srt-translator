@@ -31,6 +31,8 @@ def translate_text(text, model="gpt-4.1-mini"):
     )
     return response.choices[0].message.content.strip()
 
+# TODO: 현재 chunking으로 처리하여 line별로 번역하고 있지만,
+# 대화의 맥락을 고려하기 위해 전체 자막을 하나의 덩어리로 번역하는 함수도 개발해야 함
 def translate_subtitles(original_texts, model="gpt-4.1-mini"):
     # 3. 자막 전체를 LLM으로 번역 (chunking을 고려)
     translated_texts = [
